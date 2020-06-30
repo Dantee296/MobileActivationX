@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jamesduffy/Documents/GitHub/MobileActivationX/ios.c
+ios.h
+/Users/jamesduffy/Documents/GitHub/MobileActivationX/ios.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
+/Users/jamesduffy/Documents/GitHub/MobileActivationX/ios.h
+sys/wait.h
+-
+stdlib.h
+-
+string.h
+-
+
+/Users/jamesduffy/Documents/GitHub/MobileActivationX/main.c
+stdio.h
+-
+ios.h
+/Users/jamesduffy/Documents/GitHub/MobileActivationX/ios.h
+
